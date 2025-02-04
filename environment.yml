@@ -1,0 +1,29 @@
+name: smart
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy<2
+  - pandas
+  - scipy
+  - matplotlib
+  - conda-forge::ipympl
+  - seaborn
+  - tqdm
+  - rich
+  - pandas
+  - trackpy
+  - pims
+  - jupyter
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - uldaq
+    - opencv-contrib-python
+    - stable-baselines3[extra]
+    - gymnasium[classic-control]
+    - simple_pyspin
+# - pyspin: spinnaker_python-3.2.0.57-cp310-cp310-linux_x86_64.whl
